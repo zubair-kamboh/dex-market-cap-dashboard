@@ -1,0 +1,140 @@
+.card-text {
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 150%;
+  color: #0a0a0a;
+}
+
+.minicard-container {
+  border: 1px solid #e5ecf2;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.card-main-img {
+  width: 49px;
+}
+
+.card-main-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.card-main-container p {
+  margin: 0px 0px 0px 10px;
+}
+/* 
+
+ <Card>
+      <MDBox p={3}>
+        <div className=" card-main-container ">
+          <img src={image} className="img-fluid card-main-img" alt="hh" />
+          <p className="card-main-title ps-1">{title}</p>
+        </div>
+
+        <div className="row">
+          <div className="col-6 mt-3">
+            <div className="d-flex align-items-center minicard-container">
+              <img src={b1img} className="img-fluid w-25" alt="hh" />
+              <p className="card-text ps-1">{b1text}</p>
+            </div>
+          </div>
+          <div className="col-6 mt-3">
+            <div className="d-flex align-items-center minicard-container">
+              <img src={b2img} className="img-fluid w-25" alt="hh" />
+              <p className="card-text ps-1">{b2text}</p>
+            </div>
+          </div>
+          <div className="col-6 mt-3">
+            <div className="d-flex align-items-center minicard-container">
+              <img src={b3img} className="img-fluid w-25" alt="hh" />
+              <p className="card-text ps-1">{b3text}</p>
+            </div>
+          </div>
+          <div className="col-6 mt-3">
+            <div className="d-flex align-items-center minicard-container">
+              <img src={b4img} className="img-fluid w-25" alt="hh" />
+              <p className="card-text ps-1">{b4text}</p>
+            </div>
+          </div>
+          <div className="col-6 mt-3">
+            <div className="d-flex align-items-center minicard-container">
+              <img src={b5img} className="img-fluid w-25" alt="hh" />
+              <p className="card-text ps-1">{b5text}</p>
+            </div>
+          </div>
+          <div className="col-6 mt-3">
+            <div className="d-flex align-items-center minicard-container">
+              <img src={b6img} className="img-fluid w-25" alt="hh" />
+              <p className="card-text ps-1">{b6text}</p>
+            </div>
+          </div>
+        </div>
+      </MDBox>
+    </Card> */
+
+/* <Grid container spacing={3}>
+          <Grid item xs={12} md={6} lg={4}>
+            <MDBox mb={1.5}>
+              <SimpleBlogCard
+                image={sundaeswap}
+                title="SundaeSwap"
+                b1img={livenewspairs}
+                b1text="Live New Pairs"
+                b2img={pairexplorer}
+                b2text="Pair Explorer"
+                b3img={bigswapexplorer}
+                b3text="Big Swap Explorer"
+                b4img={switcvertical}
+                b4text="Multiswap"
+                b5img={bolt}
+                b5text="New Pairs Bot"
+                b6img={cd}
+                b6text="Price Bot"
+              />
+            </MDBox>
+          </Grid>
+          <Grid item xs={12} md={6} lg={4}>
+            <MDBox mb={1.5}>
+              <SimpleBlogCard
+                image={ergo}
+                title="Ergo"
+                b1img={livenewspairs}
+                b1text="Live New Pairs"
+                b2img={pairexplorer}
+                b2text="Pair Explorer"
+                b3img={bigswapexplorer}
+                b3text="Big Swap Explorer"
+                b4img={switcvertical}
+                b4text="Multiswap"
+                b5img={bolt}
+                b5text="New Pairs Bot"
+                b6img={cd}
+                b6text="Price Bot"
+              />
+            </MDBox>
+          </Grid>
+          <Grid item xs={12} md={6} lg={4}>
+            <MDBox mb={1.5}>
+              <SimpleBlogCard
+                image={mineswap}
+                title="Minswap"
+                b1img={livenewspairs}
+                b1text="Live New Pairs"
+                b2img={pairexplorer}
+                b2text="Pair Explorer"
+                b3img={bigswapexplorer}
+                b3text="Big Swap Explorer"
+                b4img={switcvertical}
+                b4text="Multiswap"
+                b5img={bolt}
+                b5text="New Pairs Bot"
+                b6img={cd}
+                b6text="Price Bot"
+              />
+            </MDBox>
+          </Grid>
+        </Grid> */
